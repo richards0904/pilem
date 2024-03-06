@@ -40,7 +40,10 @@ class DetailScreen extends StatelessWidget {
           ),
           Row(
             children: [
-              const Icon(Icons.calendar_month, color: Colors.blue,),
+              const Icon(
+                Icons.calendar_month,
+                color: Colors.blue,
+              ),
               const SizedBox(
                 width: 10,
               ),
@@ -59,7 +62,10 @@ class DetailScreen extends StatelessWidget {
           ),
           Row(
             children: [
-              const Icon(Icons.star, color: Colors.amber,),
+              const Icon(
+                Icons.star,
+                color: Colors.amber,
+              ),
               const SizedBox(
                 width: 10,
               ),
